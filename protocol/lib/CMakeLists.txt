@@ -1,0 +1,17 @@
+add_library(arduino_core
+        Arduino/hardware/arduino/avr/cores/arduino/Arduino.h
+        Arduino/hardware/arduino/avr/libraries/Wire/src/Wire.h
+        Arduino/hardware/arduino/avr/libraries/Wire/src/Wire.cpp
+        Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.h
+        Arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
+        Arduino/hardware/arduino/avr/cores/arduino/Print.cpp
+        Arduino/hardware/arduino/avr/cores/arduino/wiring.c
+        Arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c
+        Arduino/hardware/arduino/avr/cores/arduino/WInterrupts.c
+        Arduino/hardware/arduino/avr/cores/arduino/wiring_analog.c
+        Arduino/hardware/arduino/avr/cores/arduino/wiring_digital.c
+        Arduino/hardware/arduino/avr/cores/arduino/WMath.cpp
+        Arduino/hardware/arduino/avr/cores/arduino/wiring_pulse.c
+        channel_driver/Adafruit_PWMServoDriver.cpp
+        channel_driver/Adafruit_PWMServoDriver.h
+        )

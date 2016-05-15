@@ -1,0 +1,73 @@
+////
+//// Created by Jeremy Robles on 5/14/16.
+////
+//
+////#include <iostream>
+//#include "classes/Ankle.h"
+//#include "classes/Leg.h"
+//#include "classes/Hip.h"
+////
+////#include "../../Arduino/hardware/arduino/avr/cores/arduino/Arduino.h"
+////#include "channel_driver/Adafruit_PWMServoDriver.h"
+////using namespace std;
+//
+////void setup(){
+////
+////}
+////void loop(){
+////
+////}
+//
+//int main () {
+//    //initialize classes
+//    Ankle rightAnkle;
+//    Ankle leftAnkle;
+//    Leg rightLeg;
+//    Leg leftLeg;
+//    Hip rightHip;
+//    Hip leftHip;
+//
+//    //setup functions for right ankle
+//    rightAnkle.set_pins (12,14);
+//    rightAnkle.set_speed(0, 250);
+//    rightAnkle.set_positions(0, 180);
+//
+//    //setup function for the left ankle
+//    leftAnkle.set_pins (13,15);
+//    leftAnkle.set_speed(0, 250);
+//    leftAnkle.set_positions(0, 180);
+//
+//    //setup functions for right hip
+//    rightHip.set_pins (6,8);
+//    rightHip.set_speed(0, 250);
+//    rightHip.set_positions(0, 180);
+//
+//    //setup function for the left hip
+//    leftHip.set_pins (7, 9);
+//    leftHip.set_speed(0, 250);
+//    leftHip.set_positions(0, 180);
+//
+//    //setup functions for right leg
+//    rightLeg.set_pins(6, 8, 10, 12, 14);
+//    rightLeg.set_speed(0, 250);
+//    rightLeg.set_positions(0, 180);
+//
+//    //setup functions for left leg
+//    leftLeg.set_pins(7, 9, 11, 13, 15);
+//    leftLeg.set_speed(0, 100);
+//    leftLeg.set_positions(0, 180);
+//
+//    //output
+////    print("right leg test: " << rightLeg.tests() << "\n");
+////    cout << "left leg test: " << leftLeg.tests() << "\n";
+////
+////    cout << "right ankle tests: " << rightAnkle.tests() << "\n";
+////    cout << "left ankle tests: " << leftAnkle.tests() << "\n";
+////
+////    cout << "right hip tests: " << rightHip.tests() << "\n";
+////    cout << "left hip tests: " << leftHip.tests() << "\n";
+////
+////    cout << "testing lean forward: " << rightAnkle.lean_forward() << "\n";
+//
+//    return 0;
+//}
