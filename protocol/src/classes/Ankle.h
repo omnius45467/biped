@@ -5,13 +5,14 @@
 #ifndef BIPED_ANKLE_H
 #define BIPED_ANKLE_H
 
-//#define SERVOMIN  150 // this is the 'minimum' pulse length count (out of 4096)
-//#define SERVOMAX  600 // this is the 'maximum' pulse length count (out of 4096)
-
+#ifndef ADAFRUIT_PWMSERVODRIVER_H
+    #define ADAFRUIT_PWMSERVODRIVER_H
+    #include <Adafruit_PWMServoDriver.h>
+#endif
 
 
 class Ankle {
-    int moveTo;
+    double p[2];
     int ankle1, ankle2;
     int ankleMin, ankleMax, ankleCenter;
     int speedMin, speedMax;
@@ -32,15 +33,6 @@ public:
 
     //develop void function for the opposite side of the robot
     int tests() { return ankle1 * ankle2; }
-
-    int pins(){
-        int array[2] = {ankle1, ankle2};
-        return array[2];
-    }
-
-    int driveTo(){
-        return 1;
-    }
 
     int inside() {
         return ankleMin;

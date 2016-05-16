@@ -3,17 +3,13 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Arm.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Arm.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Knee.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Leg.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Ankle.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Shoulder.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Hip.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Knee.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Ankle.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Leg.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/protocol/src/classes/Hip.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/protocol/src/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/protocol/src/index.cpp-txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/protocol/src/ankleFunction.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />

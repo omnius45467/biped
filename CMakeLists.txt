@@ -17,7 +17,7 @@ set(SOURCE_FILES
         protocol/src/classes/Hip.h
         protocol/src/classes/Knee.cpp
         protocol/src/classes/Knee.h
-        protocol/src/main.cpp)
+        protocol/src/main.cpp protocol/src/modules.cpp protocol/src/classes/Shoulder.cpp protocol/src/classes/Shoulder.h.h)
 
 add_executable(Biped ${SOURCE_FILES})
 #generate_arduino_firmware(${PROJECT_NAME})

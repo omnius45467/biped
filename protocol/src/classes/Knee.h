@@ -46,7 +46,7 @@ public:
     }
 
     int center() {
-        kneeCenter = (kneeMin + kneeMax) / 2;
+        kneeCenter = (kneeMax + kneeMin) / 2;
         return kneeCenter;
     }
     int lean_forward(){
